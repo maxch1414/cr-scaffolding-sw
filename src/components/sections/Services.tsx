@@ -10,7 +10,6 @@ import {
   Building,
   HardHat,
   Wrench,
-  Shield,
   Clock,
   Users,
 } from "lucide-react";
@@ -117,7 +116,7 @@ export function Services() {
             </CardContent>
           </Card>
 
-          <Card className="hover:shadow-lg transition-shadow">
+          {/* <Card className="hover:shadow-lg transition-shadow">
             <CardHeader>
               <div className="bg-orange-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                 <Shield className="h-6 w-6 text-orange-600" />
@@ -144,7 +143,7 @@ export function Services() {
                 </li>
               </ul>
             </CardContent>
-          </Card>
+          </Card> */}
 
           <Card className="hover:shadow-lg transition-shadow">
             <CardHeader>
