@@ -56,7 +56,7 @@ export function Hero() {
                   <Users className="h-6 w-6 text-orange-600" />
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-900">500+ Projects</p>
+                  <p className="font-semibold text-gray-900">10+ Projects</p>
                   <p className="text-sm text-gray-600">
                     Completed Successfully
                   </p>
