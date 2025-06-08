@@ -92,7 +92,7 @@ export function About() {
 
           <div className="relative">
             <img
-              src="/placeholder.svg?height=400&width=500"
+              src="/images/about-scaffolding.jpg"
               alt="Professional scaffolding team at work"
               width={500}
               height={400}

@@ -44,7 +44,7 @@ export function Hero() {
           </div>
           <div className="relative">
             <img
-              src="/placeholder.svg?height=500&width=600"
+              src="/images/hero-scaffolding.jpg"
               alt="Professional scaffolding installation"
               width={600}
               height={500}

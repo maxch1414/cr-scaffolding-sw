@@ -14,10 +14,10 @@ export function Projects() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           <Card className="overflow-hidden hover:shadow-lg transition-shadow">
             <img
-              src="/placeholder.svg?height=200&width=400"
+              src="/images/commercial-scaffolding.jpg"
               alt="Commercial building scaffolding project"
               width={400}
               height={200}
@@ -37,26 +37,7 @@ export function Projects() {
 
           <Card className="overflow-hidden hover:shadow-lg transition-shadow">
             <img
-              src="/placeholder.svg?height=200&width=400"
-              alt="Industrial facility scaffolding"
-              width={400}
-              height={200}
-              className="w-full h-48 object-cover"
-            />
-            <CardContent className="p-6">
-              <h3 className="font-semibold text-gray-900 mb-2">
-                Manufacturing Plant Maintenance
-              </h3>
-              <p className="text-sm text-gray-600 mb-4">
-                Heavy-duty scaffolding for industrial equipment maintenance
-              </p>
-              <Badge variant="secondary">Industrial</Badge>
-            </CardContent>
-          </Card>
-
-          <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-            <img
-              src="/placeholder.svg?height=200&width=400"
+              src="/images/residential-scaffolding.jpg"
               alt="Residential scaffolding project"
               width={400}
               height={200}
