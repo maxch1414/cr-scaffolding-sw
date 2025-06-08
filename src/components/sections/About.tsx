@@ -1,4 +1,4 @@
-import { Shield, Users, Clock, CheckCircle, Star } from "lucide-react";
+import { Shield, Users, Clock, CheckCircle } from "lucide-react";
 
 export function About() {
   return (
@@ -98,7 +98,7 @@ export function About() {
               height={400}
               className="rounded-lg shadow-xl"
             />
-            <div className="absolute -top-6 -right-6 bg-white p-4 rounded-lg shadow-lg">
+            {/* <div className="absolute -top-6 -right-6 bg-white p-4 rounded-lg shadow-lg">
               <div className="flex items-center gap-2 mb-2">
                 {[...Array(5)].map((_, i) => (
                   <Star
@@ -111,7 +111,7 @@ export function About() {
                 4.9 Customer Rating
               </p>
               <p className="text-xs text-gray-600">Based on 10+ reviews</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
