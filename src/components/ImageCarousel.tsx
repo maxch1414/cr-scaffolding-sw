@@ -3,11 +3,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Image from "next/image";
-import { carouselImages } from "@/lib/carouselImages";
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { carouselImages } from "@/lib/carouselImages";
 
 export default function ImageCarousel() {
   return (
@@ -40,10 +40,6 @@ export default function ImageCarousel() {
                 <h3 className="text-2xl md:text-3xl font-bold mb-2">
                   {image.title}
                 </h3>
-                <p className="text-lg opacity-90">
-                  Professional scaffolding solutions for all your construction
-                  needs
-                </p>
               </div>
             </div>
           </SwiperSlide>

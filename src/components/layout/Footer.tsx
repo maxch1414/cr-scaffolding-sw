@@ -17,8 +17,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-300">
-              Professional scaffolding solutions for all your construction
-              needs.
+              We take it down on time, every time.
             </p>
           </div>
 
@@ -28,7 +27,6 @@ export default function Footer() {
               <li>Residential Scaffolding</li>
               <li>Commercial Scaffolding</li>
               <li>Industrial Scaffolding</li>
-              <li>Emergency Services</li>
             </ul>
           </div>
 
