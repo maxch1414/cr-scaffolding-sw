@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Menu } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import {
   Sheet,
   SheetContent,
@@ -48,7 +48,7 @@ export default function Header() {
               <a
                 key={item.href}
                 href={item.href}
-                className="text-gray-700 hover:text-orange-600 transition-colors"
+                className="text-gray-700 hover:text-primary transition-colors"
               >
                 {item.label}
               </a>
@@ -77,12 +77,13 @@ export default function Header() {
                 <SheetHeader>
                   <SheetTitle className="text-left">
                     <div className="flex items-center">
-                      <div className="w-8 h-8 bg-orange-600 rounded-lg flex items-center justify-center mr-3">
-                        <span className="text-white font-bold text-lg">S</span>
-                      </div>
-                      <span className="text-xl font-bold text-gray-900">
-                        CR Scaffolding
-                      </span>
+                      <Image
+                        src="/CR-Scaffolding-Logo.png"
+                        alt="CR Scaffolding"
+                        width={150}
+                        height={150}
+                        className="w-full"
+                      />
                     </div>
                   </SheetTitle>
                 </SheetHeader>
@@ -93,7 +94,7 @@ export default function Header() {
                         key={item.href}
                         href={item.href}
                         onClick={() => handleNavClick(item.href)}
-                        className="block text-lg font-medium text-gray-700 hover:text-orange-600 transition-colors py-2"
+                        className="block text-lg font-medium text-gray-700 hover:text-primary transition-colors py-2"
                       >
                         {item.label}
                       </a>
@@ -107,7 +108,11 @@ export default function Header() {
                             element.scrollIntoView({ behavior: "smooth" });
                           }
                         }}
-                        className="w-full bg-orange-600 hover:bg-orange-700"
+                        className={buttonVariants({
+                          variant: "default",
+                          size: "default",
+                          className: "w-full",
+                        })}
                       >
                         Get Quote
                       </Button>
