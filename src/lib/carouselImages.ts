@@ -1,6 +1,6 @@
 export const carouselImages = [
   {
-    src: "/images/Scaffold-1.jpg",
+    src: "/images/Scaffold-1.JPG",
     alt: "Professional scaffolding installation",
     title: "Professional Scaffolding Installation",
   },
@@ -20,7 +20,7 @@ export const carouselImages = [
     title: "Industrial Solutions",
   },
   {
-    src: "/images/Scaffold-5.jpg",
+    src: "/images/Scaffold-5.JPG",
     alt: "Safety-focused scaffolding",
     title: "Safety First Approach",
   },
