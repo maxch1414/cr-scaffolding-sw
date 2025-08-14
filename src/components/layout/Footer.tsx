@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Star } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -59,6 +60,17 @@ export default function Footer() {
               <li>
                 <Link href="https://maps.app.goo.gl/mpkP6EswzDx54K1h7">
                   Somerset, UK
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.google.com/search?q=CR+Scaffolding+SW+Somerset#lrd=0x869623b1cf8054f1:0x6ae15a63fe1a27a5,3,,,,"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 hover:text-primary transition-colors"
+                >
+                  <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                  Leave a Google Review
                 </Link>
               </li>
             </ul>

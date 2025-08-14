@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -108,6 +108,22 @@ export default function Contact() {
                     rel="noopener noreferrer"
                   >
                     Somerset, UK
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center">
+              <Star className="w-6 h-6 text-primary mr-4" />
+              <div>
+                <p className="font-semibold">Reviews</p>
+                <p className="text-gray-300">
+                  <a
+                    href="https://www.google.com/search?q=CR+Scaffolding+SW+Somerset#lrd=0x486d9b8b8b8b8b8b:0x8b8b8b8b8b8b8b8b,1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition-colors"
+                  >
+                    Leave a Google Review
                   </a>
                 </p>
               </div>
