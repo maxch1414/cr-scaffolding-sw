@@ -64,7 +64,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="https://www.google.com/search?q=CR+Scaffolding+SW+Somerset#lrd=0x869623b1cf8054f1:0x6ae15a63fe1a27a5,3,,,,"
+                  href="https://www.google.com/search?q=CR+Scaffolding+SW+Somerset+reviews"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-primary transition-colors"
