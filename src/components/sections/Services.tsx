@@ -1,4 +1,4 @@
-import { Shield, Truck, Users } from "lucide-react";
+import { Factory, House, Truck } from "lucide-react";
 
 export default function Services() {
   return (
@@ -17,7 +17,7 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
             <div className="w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-              <Shield className="w-8 h-8 text-primary" />
+              <House className="w-8 h-8 text-primary" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
               Residential Scaffolding
@@ -53,7 +53,7 @@ export default function Services() {
 
           <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
             <div className="w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-              <Users className="w-8 h-8 text-primary" />
+              <Factory className="w-8 h-8 text-primary" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
               Industrial Scaffolding

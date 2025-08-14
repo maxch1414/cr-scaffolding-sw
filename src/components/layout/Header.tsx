@@ -25,7 +25,15 @@ export default function Header() {
     setIsOpen(false);
     const element = document.querySelector(href);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const headerHeight = 80; // Approximate header height in pixels
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - headerHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
     }
   };
 
@@ -48,7 +56,22 @@ export default function Header() {
               <a
                 key={item.href}
                 href={item.href}
-                className="text-gray-700 hover:text-primary transition-colors"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const element = document.querySelector(item.href);
+                  if (element) {
+                    const headerHeight = 80; // Approximate header height in pixels
+                    const elementPosition = element.getBoundingClientRect().top;
+                    const offsetPosition =
+                      elementPosition + window.pageYOffset - headerHeight;
+
+                    window.scrollTo({
+                      top: offsetPosition,
+                      behavior: "smooth",
+                    });
+                  }
+                }}
+                className="text-gray-700 hover:text-primary transition-colors cursor-pointer"
               >
                 {item.label}
               </a>
@@ -57,7 +80,15 @@ export default function Header() {
               onClick={() => {
                 const element = document.querySelector("#contact");
                 if (element) {
-                  element.scrollIntoView({ behavior: "smooth" });
+                  const headerHeight = 80; // Approximate header height in pixels
+                  const elementPosition = element.getBoundingClientRect().top;
+                  const offsetPosition =
+                    elementPosition + window.pageYOffset - headerHeight;
+
+                  window.scrollTo({
+                    top: offsetPosition,
+                    behavior: "smooth",
+                  });
                 }
               }}
             >
@@ -105,7 +136,18 @@ export default function Header() {
                           setIsOpen(false);
                           const element = document.querySelector("#contact");
                           if (element) {
-                            element.scrollIntoView({ behavior: "smooth" });
+                            const headerHeight = 80; // Approximate header height in pixels
+                            const elementPosition =
+                              element.getBoundingClientRect().top;
+                            const offsetPosition =
+                              elementPosition +
+                              window.pageYOffset -
+                              headerHeight;
+
+                            window.scrollTo({
+                              top: offsetPosition,
+                              behavior: "smooth",
+                            });
                           }
                         }}
                         className={buttonVariants({

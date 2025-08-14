@@ -1,7 +1,23 @@
+"use client";
+
 import ImageCarousel from "@/components/ImageCarousel";
 import { buttonVariants } from "../ui/button";
 
 export default function Hero() {
+  const handleScrollToSection = (href: string) => {
+    const element = document.querySelector(href);
+    if (element) {
+      const headerHeight = 80; // Approximate header height in pixels
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - headerHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <section className="relative">
       <ImageCarousel />
@@ -16,8 +32,8 @@ export default function Hero() {
             all your construction needs
           </p>
           <div className="hidden sm:flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
-            <a
-              href="#contact"
+            <button
+              onClick={() => handleScrollToSection("#contact")}
               className={buttonVariants({
                 variant: "default",
                 size: "default",
@@ -25,9 +41,9 @@ export default function Hero() {
               })}
             >
               Get Free Quote
-            </a>
-            <a
-              href="#services"
+            </button>
+            <button
+              onClick={() => handleScrollToSection("#services")}
               className={buttonVariants({
                 variant: "secondary",
                 size: "default",
@@ -35,7 +51,7 @@ export default function Hero() {
               })}
             >
               Our Services
-            </a>
+            </button>
           </div>
         </div>
       </div>
