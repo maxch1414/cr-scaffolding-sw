@@ -17,7 +17,7 @@ export default function About() {
             </p>
             <p className="text-lg text-gray-600 mb-8">
               From small residential projects to large commercial developments,
-              we provide customized scaffolding solutions that meet your
+              we provide customised scaffolding solutions that meet your
               specific needs and budget requirements.
             </p>
 
