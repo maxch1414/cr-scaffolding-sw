@@ -36,11 +36,11 @@ export default function ImageCarousel() {
                 className="object-cover"
                 priority={index === 0}
               />
-              <div className="absolute bottom-8 left-8 z-20 text-white">
+              {/* <div className="absolute bottom-8 left-8 z-20 text-white">
                 <h3 className="text-2xl md:text-3xl font-bold mb-2">
                   {image.title}
                 </h3>
-              </div>
+              </div> */}
             </div>
           </SwiperSlide>
         ))}

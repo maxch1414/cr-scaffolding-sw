@@ -29,4 +29,44 @@ export const carouselImages = [
     alt: "Commercial building scaffolding",
     title: "Commercial Building Projects",
   },
+  {
+    src: "/images/Scaffold-7.JPG",
+    alt: "Commercial building scaffolding",
+    title: "Commercial Building Projects",
+  },
+  {
+    src: "/images/Scaffold-8.JPG",
+    alt: "Commercial building scaffolding",
+    title: "Commercial Building Projects",
+  },
+  {
+    src: "/images/Scaffold-9.JPG",
+    alt: "Commercial building scaffolding",
+    title: "Commercial Building Projects",
+  },
+  {
+    src: "/images/Scaffold-10.jpg",
+    alt: "Commercial building scaffolding",
+    title: "Commercial Building Projects",
+  },
+  {
+    src: "/images/Scaffold-11.jpg",
+    alt: "Commercial building scaffolding",
+    title: "Commercial Building Projects",
+  },
+  {
+    src: "/images/Scaffold-12.jpg",
+    alt: "Commercial building scaffolding",
+    title: "Commercial Building Projects",
+  },
+  {
+    src: "/images/Scaffold-13.jpg",
+    alt: "Commercial building scaffolding",
+    title: "Commercial Building Projects",
+  },
+  {
+    src: "/images/Scaffold-14.JPG",
+    alt: "Commercial building scaffolding",
+    title: "Commercial Building Projects",
+  },
 ];
