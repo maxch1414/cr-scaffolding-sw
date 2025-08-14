@@ -118,7 +118,7 @@ export default function Contact() {
                 <p className="font-semibold">Reviews</p>
                 <p className="text-gray-300">
                   <a
-                    href="https://www.google.com/search?q=CR+Scaffolding+SW+Somerset+reviews"
+                    href="https://maps.app.goo.gl/roU9XBfSJ8rbo9tQ8?g_st=ipc"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
