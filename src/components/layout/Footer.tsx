@@ -67,8 +67,8 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
           <p>
-            &copy; {new Date().getFullYear()} CR Scaffolding SW. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} MLC IT Solutions Limited. All
+            rights reserved.
           </p>
         </div>
       </div>

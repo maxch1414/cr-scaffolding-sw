@@ -35,10 +35,10 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <Image
-              src="/CR-Scaffolding-Logo.png"
+              src="/CR-Scaffolding-Logo-transparent.png"
               alt="CR Scaffolding"
-              width={150}
-              height={150}
+              width={100}
+              height={100}
               className="mr-3"
             />
           </div>
