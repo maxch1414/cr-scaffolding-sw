@@ -20,6 +20,27 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
   },
+  openGraph: {
+    title: "CR Scaffolding SW",
+    description: "CR Scaffolding Services | Professional Scaffolding Solutions",
+    type: "website",
+    url: "https://cr-scaffolding-sw.vercel.app",
+    siteName: "CR Scaffolding SW",
+    images: [
+      {
+        url: "/images/Scaffold-14.JPG",
+        width: 1200,
+        height: 630,
+        alt: "CR Scaffolding Services - Professional Scaffolding Solutions",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CR Scaffolding SW",
+    description: "CR Scaffolding Services | Professional Scaffolding Solutions",
+    images: ["/images/Scaffold-14.JPG"],
+  },
 };
 
 export default function RootLayout({
